@@ -1,0 +1,201 @@
+.left-top {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+
+	z-index: 5;
+	background-image: url('../../img/bg/bg-black-wear.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	position: relative;
+}
+
+.left-bottom {
+	grid-column-start: 1;
+	grid-column-end: -3;
+	grid-row-start: 2;
+	grid-row-end: 4;
+
+	background-color: #f0f0f0;
+	background-image: url('../../img/img/Kate Winslet.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+
+	position: relative;
+}
+
+.middle {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+
+	background-color: #5d257c;
+}
+
+.right-top {
+	grid-column-start: -3;
+	grid-column-end: -1;
+	grid-row-start: 1;
+	grid-row-end: 2;
+
+	background-image: url('../../img/bg/bg-join.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	z-index: 5;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	span {
+		color: rgba(0, 0, 0, 0.2);
+		font-family: 'Playfair Display', serif;
+		font-size: 25px;
+		font-style: italic;
+		line-height: 30.73px;
+	}
+}
+
+.right-bottom {
+	grid-column-start: -3;
+	grid-column-end: -1;
+	grid-row-start: 2;
+	grid-row-end: -1;
+
+	background-image: url('../../img/bg/bg-warstwa.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	position: relative;
+
+	h3 {
+		position: absolute;
+		bottom: 133px;
+		left: 39px;
+		color: #fff;
+	}
+}
+
+.left-top .text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	span {
+		position: absolute;
+		top: -30px;
+		left: 95px;
+		color: rgba(0, 0, 0, 0.3);
+		font-family: 'Playfair Display', serif;
+		font-size: 25px;
+		font-style: italic;
+		line-height: 30.73px;
+	}
+}
+
+.btn--order {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, -83px);
+
+}
+
+.bullets {
+	width: 50px;
+	height: 9px;
+	position: absolute;
+	bottom: 37px;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+.bullet {
+	margin-right: 12px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.left-bottom h2 {
+	position: absolute;
+	bottom: 145px;
+	left: 98px;
+	margin: 0;
+
+	color: #873ab1;
+	font-family: 'Playfair Display', serif;
+	font-size: 104px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 129.83px;
+}
+
+.left-bottom span {
+	position: absolute;
+	bottom: 235px;
+	left: 550px;
+
+	color: rgba(0, 0, 0, 0.25);
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	font-style: italic;
+}
+
+.watch {
+	position: absolute;
+	bottom: 51px;
+	left: 96px;
+}
+
+.collection {
+	width: 641px;
+	height: 209px;
+	border: 3px solid #873ab1;
+	background-color: #5d257c;
+	margin: 48px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	span {
+		color: #ffffff;
+		font-family: 'Playfair Display', serif;
+		font-size: 25px;
+		font-weight: 700;
+		font-style: italic;
+		line-height: 30.73px;
+	}
+
+	h3 {
+		color: #fff;
+	}
+
+	p {
+		color: #873ab1;
+		font-family: 'Playfair Display', serif;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 30.73px;
+	}
+}
+
+.btn--viewMore {
+	position: absolute;
+	bottom: 44px;
+	left: 38px;
+	color: #fff;
+	
+
+	border: 3px solid #873ab1;
+
+}

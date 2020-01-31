@@ -1,0 +1,173 @@
+.blog--wrapper {
+	display: flex;
+	flex-direction: column;
+
+	@media (min-width: 740px) {
+		margin-top: -150px;
+		padding-bottom: 30px;
+	}
+
+	@media (min-width: 1000px) {
+		margin-top: 0;
+	}
+	
+
+	@media (min-width: 1470px) {
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 0;
+		padding-bottom: 0;
+	}
+
+}
+
+.blog--item {
+	height: auto;
+	display: flex;
+	margin: 20px auto;
+	flex-direction: column;
+	font-size: 0;
+
+	@media (min-width: 740px) {
+		flex-direction: row;
+		width: 735px;
+		height: 565px;
+		box-shadow: 10px 10px 40px -10px #000;
+
+		&:nth-of-type(2n) {
+			flex-direction: row-reverse;
+		}
+	}
+
+	@media (min-width: 1470px) {
+		flex-direction: row;
+		box-shadow: none;
+		margin: 0;
+		width: auto;
+
+		&:nth-of-type(2n) {
+			flex-direction: row;
+		}
+	}
+
+}
+
+.blog--item:nth-of-type(3),
+.blog--item:last-of-type {
+
+	@media (min-width: 1470px) {
+		flex-direction: row-reverse;
+	}
+}
+
+.item__picture {
+	width: 375px;
+	height: 565px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&--one {
+		background-image: url('../../img/img/lifestyle.jpg');
+	}
+
+	&--two {
+		background-image: url('../../img/img/stories.jpg');
+	}
+
+	&--three {
+		background-image: url(../../img/img/fashion.jpg);
+	}
+	&--four {
+		background-image: url(../../img/img/events.jpg);
+		@media (min-width: 1470px) {
+			background-position: 15px;
+			margin-left: -1px;
+		}
+	}
+}
+
+.item__card {
+	width: 315px;
+	background-color: #fff;
+	padding: 47px 33px 15px 27px;
+	font-size: 0;
+
+	@media (min-width: 740px) {
+		width: 300px;
+		padding-bottom: 0;
+	}
+
+}
+
+.item__card--header {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 30.73px;
+}
+
+.categories {
+	color: #5d257c;
+}
+
+.date {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.title {
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+}
+
+.item__title {
+	width: 265px;
+	margin-top: 33px;
+	margin-bottom: 47px;
+	&:after {
+		content: '';
+		margin-top: 47px;
+		display: block;
+		width: 105px;
+		height: 4px;
+		background-color: #000000;
+	}
+}
+
+.description {
+	color: rgba(0, 0, 0, 0.4);
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+	margin-bottom: 60px;
+}
+
+.item__desc {
+	width: 298px;
+	height: 88px;	
+}
+
+.blog--btn {
+	border: 3px solid #ededed;
+	background-color: #fff;
+	color: #000;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
+

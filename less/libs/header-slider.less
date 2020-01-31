@@ -1,0 +1,136 @@
+.header--content {
+	// height: 893px;
+}
+
+.header-wrapper {
+	position: relative;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.slider {
+	background-color: #5d257c;
+	padding: 20px 20px;
+	z-index: 1;
+	max-width: 738px;
+
+	span {
+		color: #ffffff;
+		font-family: 'Raleway', sans-serif;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 30px;
+		letter-spacing: -0.45px;
+	}
+
+	@media (min-width: 740px) {
+		// position: absolute;
+		display: inline-block;
+		margin: 0 auto;
+		width: 450px;
+		bottom: -300px;
+		left: 50%;
+		transform: translateY(-40%);
+		box-shadow: -10px 10px 40px -10px #000;
+		padding: 62px 60px;
+	}
+
+	@media (min-width: 900px) {
+		transform: translateY(-50%);
+	}
+
+	@media (min-width: 1000px) {
+		box-shadow: none;
+		position: absolute;
+		left: 0;
+		width: 540px;
+		bottom: -100px;
+	}
+
+	@media (min-width: 1200px) {
+		width: 650px;
+		height: 330px;
+		top: 221px;
+		left: 0;
+		transform: none;
+	}
+}
+.slider__title {
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	@media (min-width: 400px) {
+		font-size: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 350px;
+	}
+
+	@media (min-width: 480px) {
+		font-size: 42px;
+		width: 400px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	@media (min-width: 600px) {
+		font-size: 48px;
+		width: 500px;
+		margin-top: 62px;
+		margin-bottom: 57px;
+	}
+
+	@media (min-width: 1000px) {
+		width: 550px;
+		font-size: 48px;
+		margin-top: 83px;
+		margin-bottom: 57px;
+	}
+}
+
+.checkMore {
+	width: 182px;
+	height: 54px;
+	border: 3px solid #772f9f;
+	background-color: #5d257c;
+	padding: 15px 9px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+.slider-picture {
+	width: 100%;
+	height: 300px;
+	background-image: url('../img/img/header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0;
+
+	@media (min-width: 500px) {
+		height: 500px;
+	}
+
+	@media (min-width: 1000px) {
+		background-position: 200px;
+		height: 891px;
+	}
+
+	@media (min-width: 1200px) {
+		background-position: 400px;
+
+	}
+}
+
+
+
+

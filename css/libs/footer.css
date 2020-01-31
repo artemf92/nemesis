@@ -1,0 +1,121 @@
+.btn--show {
+  width: 100%;
+  max-width: 723px;
+  height: 244px;
+  background-color: #f0f0f0;
+  display: block;
+  margin: 103px auto;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.btn--show:after {
+  content: '';
+  display: block;
+  width: 159px;
+  height: 7px;
+  background-color: #000000;
+  margin-left: 117px;
+}
+.footer--bg {
+  height: 150px;
+  background-color: #f0f0f0;
+}
+@media (min-width: 768px) {
+  .footer--bg {
+    height: 222px;
+  }
+}
+.footer--nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+@media (min-width: 768px) {
+  .footer--nav {
+    padding-top: 75px;
+  }
+}
+.nav {
+  margin-left: 194px;
+}
+.nav ul {
+  display: none;
+}
+.nav--menu {
+  padding-right: 219px;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  list-style: none;
+  position: relative;
+}
+.nav--menu:after {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  content: '';
+  display: block;
+  width: 159px;
+  height: 3px;
+  background-color: #000000;
+  opacity: 0.1;
+}
+.footer--copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyright {
+  color: rgba(0, 0, 0, 0.3);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.socials a {
+  margin-right: 38px;
+}
+.socials a:last-child {
+  margin-right: 0;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 1470px) {
+  .footer--nav {
+    flex-direction: row;
+  }
+  .nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer--copyright {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .copyright {
+    text-align: left;
+    padding-top: 64px;
+    margin-bottom: 0;
+  }
+  .socials {
+    margin-bottom: 0;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */

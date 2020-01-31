@@ -1,0 +1,128 @@
+.photos--block {
+	display: flex;
+	flex-direction: column;
+}
+
+.left--side {
+	width: 100%;
+	max-width: 668px;
+	height: 855px;
+
+	margin: 0 auto;
+
+	background-image: url('../../img/bg/dayly.jpg');
+	background-repeat: no-repeat;
+	position: relative;
+
+	h3 {
+		color: #fff;
+	}
+}
+
+.center--side {
+	width: 100%;
+	max-width: 1094px;
+	height: 855px;
+
+	position: relative;
+	background-image: url('../../img/bg/Photo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	h2 {
+		position: absolute;
+		bottom: 75px;
+		left: 71px;
+
+		color: #ffffff;
+		font-family: 'Raleway', sans-serif;
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 60px;
+	}
+}
+
+.right--side {
+	width: 279px;
+	height: 855px;
+	display: none;
+
+	position: relative;
+	background-image: url('../../img/bg/right-block.png');
+	background-repeat: no-repeat;
+}
+
+
+
+.block {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.right--side > .block {
+	width: 60px;
+}
+
+.rotate {
+	transform: rotate(90deg);
+}
+
+.white-title {
+	color: #fff;
+}
+
+.nav--arrow {
+	position: absolute;
+	right: 0;
+}
+
+.left--arrow {
+	top: 149px;
+}
+
+.right--arrow {
+	top: 0;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 1200px) {
+
+.photos--block {
+	flex-direction: row;
+}
+
+.left--side {
+	width: 668px;
+	margin: 0;
+
+}
+
+.center--side {
+	width: 1094px;
+}
+
+.right--side {
+	display: block;
+}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}
+
