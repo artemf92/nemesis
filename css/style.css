@@ -256,10 +256,10 @@
   background-image: url('../img/img/stories.jpg');
 }
 .item__picture--three {
-  background-image: url('../../img/img/fashion.jpg');
+  background-image: url('../img/img/fashion.jpg');
 }
 .item__picture--four {
-  background-image: url('../../img/img/events.jpg');
+  background-image: url('../img/img/events.jpg');
 }
 @media (min-width: 1470px) {
   .item__picture--four {
